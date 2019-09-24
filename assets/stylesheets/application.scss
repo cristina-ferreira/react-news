@@ -1,0 +1,49 @@
+
+body {
+  font-family: Helvetica;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: cadetblue;
+}
+
+.title {
+  width: 100vw;
+  height: 70px;;
+  background-color: lightgrey;
+  color: hsl(191, 54%, 43%);
+  padding: 40px;
+  padding-left: 70px;
+}
+
+h2 {
+  display: inline;
+}
+
+.search {
+ display: inline;
+ padding-left: 20px;
+}
+
+button {
+ margin-left: 5px;
+}
+
+.btn {
+  color: #3293a8;
+
+}
+
+.post-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-card {
+  background-color: whitesmoke;
+  box-shadow: 3px 5px #888888;
+  margin-bottom: 10px;
+  padding: 40px;
+}
